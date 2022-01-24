@@ -5,7 +5,7 @@ payments as (
 )
 
 select 
-    order_id
+    order_id,
     sum(amount) as total_amount
 from payments
 group by order_id
