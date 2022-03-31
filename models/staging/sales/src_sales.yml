@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: src_sales
+    database: streams_db
+    schema: public
+    tables:
+      - name: sales_stream
+
+          
